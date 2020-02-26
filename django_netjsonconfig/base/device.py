@@ -1,6 +1,7 @@
+from hashlib import md5
+
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
-from hashlib import md5
 
 from openwisp_utils.base import KeyField
 from openwisp_utils.utils import get_random_key
